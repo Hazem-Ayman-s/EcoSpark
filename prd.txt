@@ -1,0 +1,162 @@
+ Project Overview
+Product Name: EcoSpark Landing Page
+Industry: Eco-Friendly Products / Sustainability
+Purpose: Promote EcoSpark’s biodegradable phone cases and collect email leads for a future launch.
+Main Goal: Drive newsletter subscriptions by offering a 15% discount.
+Primary CTA: “Get My 15% Off”
+
+✅ Functional Requirements
+1. HTML (Structure & Accessibility)
+Use semantic tags: <header>, <main>, <section>, <article>, <footer>, <nav>, etc.
+
+Ensure proper heading hierarchy (H1-H6) for SEO and screen readers.
+
+All images should include alt attributes.
+
+Use ARIA roles where necessary (e.g., role="button", aria-labels for nav items).
+
+Form input fields should be labeled for accessibility.
+
+2. CSS (Styling & Interactivity)
+Design Guidelines
+Color Palette:
+
+Primary: Green #4CAF50
+
+Background: White
+
+Accent: Light Grey #f5f5f5
+
+Typography:
+
+Font family: Clean modern sans-serif (e.g., font-family: 'Segoe UI', sans-serif)
+
+Style:
+
+Minimal, modern, friendly
+
+Plenty of whitespace
+
+Rounded corners for CTA buttons
+
+Effects & Enhancements
+Hover Effects for:
+
+CTA buttons
+
+Navigation links
+
+Feature icons/cards
+
+Box Shadows on:
+
+CTA buttons
+
+Feature cards
+
+Input fields (on focus/hover)
+
+3. JavaScript (Behavior & Animations)
+Scroll-based Animations
+Fade-in, slide-up, or zoom-out effects triggered when sections enter the viewport.
+
+Use Intersection Observer API or a lightweight library (like AOS.js) if needed.
+
+Back to Top Button
+Appears after user scrolls down a certain distance.
+
+On click: smooth scroll to the top.
+
+Should use scroll-behavior: smooth or equivalent JS.
+
+save preferience of darkmode / light mode
+
+🧱 Page Structure & Content Sections
+1. Header
+Logo (EcoSpark text or image)
+
+Navigation Links: Home, About, Contact (anchor-based scrolling), dark / light mode toggle
+
+Sticky on scroll (optional)
+
+2. Hero Section
+Headline: “Protect Your Phone. Save the Planet.”
+
+Subtext: “Stylish, strong, and 100% biodegradable.”
+
+CTA Button: “Get My 15% Off”
+
+Prominent color (#4CAF50), hover effect
+
+Image: High-quality product image of biodegradable phone case
+
+3. Features / Benefits
+Three Points with icons or visuals:
+
+Eco-friendly materials
+
+Durable design
+
+Compostable packaging
+
+Use hover states and box shadow to highlight interactivity
+
+4. Social Proof (Optional Section)
+Add placeholders for 2–3 short testimonials or customer reviews
+
+Style in quote format or card layout
+
+Include customer names or icons
+
+5. Product or Service Details
+A short paragraph or bullet list about the phone case’s key specifications (optional but helpful for credibility)
+
+6. About Us
+Text: EcoSpark’s mission statement: A short paragraph about reducing plastic waste and promoting sustainability
+
+7. Email Capture Section
+Text: “Join the movement & get 15% off your first order.”
+
+Input Field: For email (with validation)
+
+CTA Button: “Get My 15% Off”
+
+Uses same design rules as Hero CTA
+
+Styled minimally with small icons or emoji placeholders
+
+9. Pricing Section (Optional)
+If applicable, show “Starting at $XX” or leave space to add later
+
+10. FAQ Section (Optional)
+Accordion or dropdown layout
+
+2–3 sample questions (e.g., “How long does shipping take?”, “Is the case really biodegradable?”)
+
+11. Footer
+Navigation Links: Home, About, Contact (anchor scroll)
+
+Social Media Icons: Instagram, Facebook, X (placeholder emojis/icons okay)
+
+Background color: Light grey #f5f5f5
+
+Use aria-label for icons for accessibility
+
+📱 Responsiveness
+Fully responsive for mobile, tablet, and desktop
+
+CTA and forms should be easily tappable on mobile
+
+Use media queries or responsive utility classes
+
+🧪 Testing & QA Requirements
+Accessibility Audit: Check with tools like Lighthouse or axe DevTools
+
+Responsiveness Check: View on multiple screen sizes
+
+Browser Compatibility: Chrome, Firefox, Safari, Edge
+
+Form Validation: Email format check, error styling
+
+Animation Triggers: Ensure scroll effects work smoothly on all devices
+
